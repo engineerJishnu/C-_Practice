@@ -11,6 +11,14 @@ creating a C++ project in Xcode, creating a header.hpp as well as header.cpp fil
 
 The main.cpp was automatically created during making of the project.
 
+All is done by self learning and also took help from google as well as saw some C++ videos in Youtube.
+
+These are extremely simple one....but its like a first step taken to understand the basic concept, syntax etc.
+
+I welcome other newcomers as well as novice to go through it and if it does even smallest help to anyone....I feel its purpose is meaningfully served.
+
+
+
 
 
 
