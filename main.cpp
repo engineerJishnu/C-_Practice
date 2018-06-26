@@ -89,8 +89,14 @@ int main() {
     th3.join();
     //-------------------object oriented programming using simple class sheep with private members
     sheep object1;
-    object1.intro();
-    object1.sheepSay("Bjarne ", 6);
+    sheep *ptrSheep; // class pointer
+    ptrSheep = nullptr;
+    ptrSheep = &object1;
+    ptrSheep -> intro();
+    ptrSheep -> sheepSay("bjarne - using class pointer", 456);
+    
+    //object1.intro();
+    //object1.sheepSay("Bjarne ", 6);
     
     poorSheep inheritedObj1;
     inheritedObj1.inheritedIntro();
@@ -143,10 +149,22 @@ int main() {
     //------------------------------------------------------------------------
     std::string someString = "It's John Wick's Car!\n";
     copy(someString.begin(), someString.end(), std::ostream_iterator<char>(std::cout));
-    
-    
     //---------------press enter key to end the main function----------------
+    int i = 0;
+    while(i < 10){
+        ++i;
+        std::cout << "pre increment = " << i << std::endl;
+    }
+    
+    int j = 0;
+    while (j < 10) {
+        j++;
+        std::cout << "post increment = " << j << std::endl;
+    }
+    
+    
     logMessage("Exiting main() function......");
     //std::cin.get();
+    
     return 0;
 }

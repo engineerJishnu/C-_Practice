@@ -45,7 +45,7 @@ void sheep::sheepSay(const char* name, int age){
 }
 
 void sheep::intro(){
-    logMessage("This is the example of simple class in C++....");
+    logMessage("This is the example of simple class pointer in C++....");
 }
 
 void poorSheep::inheritedIntro(){
